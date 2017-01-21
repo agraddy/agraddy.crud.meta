@@ -1,0 +1,58 @@
+colors
++ id i nn ai pk
++ title_id i
++ name s
++ hex s
++ deleted b 0
+
+glue_colors_tags 
++ id i nn ai pk
++ color_id i
++ tag_id i
++ deleted b 0
+
+hsl
++ id i nn ai pk
++ color_id i
++ hue i
++ saturation i
++ lightness i
++ deleted b 0
+
+hsv
++ id i nn ai pk
++ color_id i
++ hue i
++ saturation i
++ value i
++ deleted b 0
+
+rgb
++ id i nn ai pk
++ color_id i
++ title_id i
++ red i
++ green i
++ blue i
++ deleted b 0
+
+tags
++ id i nn ai pk
++ name s
++ deleted b 0
+
+titles
++ id i nn ai pk
++ tag_id i
++ name s
++ deleted b 0
+
+=
+
+!colors
+!glue_colors_tags 
+!hsl
+!hsv
+!rgb
+!tags
+!titles
